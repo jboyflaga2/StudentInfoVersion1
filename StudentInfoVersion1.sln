@@ -10,7 +10,20 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		global.json = global.json
 	EndProjectSection
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "StudentInfoVersion1", "src\StudentInfoVersion1\StudentInfoVersion1.xproj", "{ED873870-01D0-4B78-B0F0-BAF6803F5B95}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "StudentInfo.StudentRecords.Core", "src\StudentInfo.StudentRecords.Core\StudentInfo.StudentRecords.Core.xproj", "{435A793D-04C7-495D-AA71-A335802B5B8B}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "StudentInfo.StudentRecords.Data", "src\StudentInfo.StudentRecords.Data\StudentInfo.StudentRecords.Data.xproj", "{F567B88C-7797-4C2C-8E9C-AE23D7C3B96D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StudentRecords", "StudentRecords", "{BC8B4C14-E52D-493D-BDEC-2A77D0323599}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CoursesManagement", "CoursesManagement", "{56690519-3316-4EA5-863E-3CC179B713AC}"
+	ProjectSection(SolutionItems) = preProject
+		NOTE.txt = NOTE.txt
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "StudentInfo.CoursesManagement.Core", "src\StudentInfo.CoursesManagement.Core\StudentInfo.CoursesManagement.Core.xproj", "{0CF7F73D-0658-47E5-B565-8FDDEAFE2535}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "StudentInfo.WebAPI", "src\StudentInfo.WebAPI\StudentInfo.WebAPI.xproj", "{6F576C07-8844-49AC-9C81-D36AEA71E10B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,15 +31,32 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{ED873870-01D0-4B78-B0F0-BAF6803F5B95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{ED873870-01D0-4B78-B0F0-BAF6803F5B95}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{ED873870-01D0-4B78-B0F0-BAF6803F5B95}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{ED873870-01D0-4B78-B0F0-BAF6803F5B95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{435A793D-04C7-495D-AA71-A335802B5B8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{435A793D-04C7-495D-AA71-A335802B5B8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{435A793D-04C7-495D-AA71-A335802B5B8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{435A793D-04C7-495D-AA71-A335802B5B8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F567B88C-7797-4C2C-8E9C-AE23D7C3B96D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F567B88C-7797-4C2C-8E9C-AE23D7C3B96D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F567B88C-7797-4C2C-8E9C-AE23D7C3B96D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F567B88C-7797-4C2C-8E9C-AE23D7C3B96D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CF7F73D-0658-47E5-B565-8FDDEAFE2535}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CF7F73D-0658-47E5-B565-8FDDEAFE2535}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CF7F73D-0658-47E5-B565-8FDDEAFE2535}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CF7F73D-0658-47E5-B565-8FDDEAFE2535}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F576C07-8844-49AC-9C81-D36AEA71E10B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F576C07-8844-49AC-9C81-D36AEA71E10B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F576C07-8844-49AC-9C81-D36AEA71E10B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F576C07-8844-49AC-9C81-D36AEA71E10B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{ED873870-01D0-4B78-B0F0-BAF6803F5B95} = {F7D3F4F4-DBF6-4358-B137-163715048A34}
+		{435A793D-04C7-495D-AA71-A335802B5B8B} = {BC8B4C14-E52D-493D-BDEC-2A77D0323599}
+		{F567B88C-7797-4C2C-8E9C-AE23D7C3B96D} = {BC8B4C14-E52D-493D-BDEC-2A77D0323599}
+		{BC8B4C14-E52D-493D-BDEC-2A77D0323599} = {F7D3F4F4-DBF6-4358-B137-163715048A34}
+		{56690519-3316-4EA5-863E-3CC179B713AC} = {F7D3F4F4-DBF6-4358-B137-163715048A34}
+		{0CF7F73D-0658-47E5-B565-8FDDEAFE2535} = {56690519-3316-4EA5-863E-3CC179B713AC}
+		{6F576C07-8844-49AC-9C81-D36AEA71E10B} = {F7D3F4F4-DBF6-4358-B137-163715048A34}
 	EndGlobalSection
 EndGlobal
